@@ -1,16 +1,54 @@
-.clicked
+body
 {
-    width: 20vw;
-    height: 20vh;
-    background-color: black;
-    margin: auto;
-    transition: 0.5s;
+    background-color: rgb(80, 205, 80);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.click
+.container
 {
-    border: 4px solid blue;
-    width: 10vw;
-    height: 10vh;
-     
+    background-color: white;
+    width: 30%;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.timer
+{
+    font-size: 4.5rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.buttons
+{
+    text-align: center;
+    
+}
+
+button
+{
+    margin:0 15px;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button i
+{
+    font-size: 35px;
+    color:white;
+}
+
+.play
+{
+    background-color: blue;
+}
+
+.reset
+{
+    background-color: red;
 }
